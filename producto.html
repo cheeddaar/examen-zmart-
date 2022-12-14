@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.2.2/scss/bootstrap.scss">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <title>Producto</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home-zmart.html"><img src="assets/img/logo_zmart.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu Zmart</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home-zmart.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Iniciar Sesion</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Consolas
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="Catalogo.html">Nintendo</a></li>
+                <li><a class="dropdown-item" href="#">Playstation</a></li>
+                <li><a class="dropdown-item" href="#">Xbox</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Encuentra lo que buscas" aria-label="Search">
+            <button class="btn" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <div class=" bannerz text-center">
+        <img class="col img-fluid" src="assets/img/Zelda Banner.png" alt="Banner">
+    </div>
+    <div class="producto container-fluid text-center justify-content-around">
+        <div class="col-3">
+            <img src="assets/img/Zelda-portada.png" alt="TLOZ">
+        </div>
+        <div class="col-6 productito">
+            <h2 class="letra-2">The Legend of Zelda Breath of the Wild</h2>
+            <h2 class="letra-2">$69.990</h2>
+            <button class="boton-producto">Agregar al carro</button>
+            <div class="esrb col-8
+            ">
+            <img class="clasificacion align-self-start img-fluid" src="assets/img/14_años_o_más_(content_rating_system).png" alt="clasificacion">
+            <p>14 años o más: Videojuego no recomendado para menores de 14 años .</p>
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid row">
+        <img class="col img-fluid" src="assets/img/Miniatura 1.png" alt="Gameplay1">
+        <img class="col img-fluid" src="assets/img/Miniatura 2.png" alt="Gameplay2">
+        <img class="col img-fluid" src="assets/img/Miniatura 3.png" alt="Gameplay3">
+    </div>
+    <div class="container-fluid descripcion-general col-8">
+        <h2 class="titulos-producto">Descripción General</h2>
+        <p>
+            ENTRA EN UN MUNDO DE AVENTURA
+Olvida todo lo que sabes sobre los juegos de The Legend of Zelda. Entra en un mundo de descubrimientos, exploración y aventura en The Legend of Zelda: Breath of the Wild, un nuevo juego de la aclamada serie que rompe con las convenciones. Viaja por prados, bosques y cumbres montañosas para descubrir qué ha sido del asolado reino de Hyrule en esta maravillosa aventura a cielo abierto.
+
+Explora las tierras de Hyrule como más te guste
+Escala torres y montañas en busca de nuevos destinos y sigue tu propio camino para llegar hasta ellos. Por el camino lucharás contra enormes enemigos, cazarás feroces bestias y recolectarás ingredientes para preparar las comidas y elixires que te permitirán subsistir durante tu aventura.
+        </p>
+    </div>
+    <div class="trailer container-fluid col-8 align-items-center">
+      <h2 class="titulos-producto">Ver el Trailer</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zw47_q9wbBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+      <h2 class="titulos-producto text-center">Nuestros clientes que compraron este producto, también compraron:</h2>
+    <div class="seleccionclientes container-fluid row text-center">
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Fronteras-Portada.png" alt="Sonic">
+        <h5>Sonic Frontiers</h5>
+        <h5>69.990</h5>
+      </div>
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Smash-Portada.png" alt="SmashBros">
+        <h5>Super Smash Bros Ultimate</55>
+        <h5>69.990</h5>
+      </div>
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Bayonetta-Portada.png" alt="Bayonetta">
+        <h5>Bayonetta 3</h5>
+        <h5>69.990</h5>
+      </div>
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Legendas-Portada.png" alt="Legends">
+        <h5>Pokémon Legends Arceus</h5>
+        <h5>69.990</h5>
+      </div>
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Animal-Portada.png" alt="AC">
+        <h5>Animal Crossing New Horizons</h5>
+        <h5>69.990</h5>
+      </div>
+      <div class="seleccioncliente col container-fluid">
+        <img src="assets/img/Persona-Portada.png" alt="Persona">
+        <h5>Persona 5 Royal</h5>
+        <h5>69.990</h5>
+      </div>
+    </div>
+  </div>
+  <div class="pie container-fluid align-items-center">
+    <div class="imgpi align-self-center">
+        <img src="assets/img/logotipo-googlemerchant-square-2000x2000.png" alt="ZmartLogo">
+    </div>
+    <div>
+        <p class="tpie">Servicios Zmart.cl</p>
+        <p>Reglas y Condiciones</p>
+        <p>Servicio Técnico Zmart</p>
+    </div>
+    <div>
+        <p class="tpie">Ayuda al Cliente</p>
+        <p>Preguntas Frecuentes</p>
+        <p>Nuestras Tiendas</p>
+        <p>Guia para Padres</p>
+
+    </div>
+
+  </div>
+  
+
+</body>
+</html>

@@ -1,0 +1,379 @@
+// variables //
+$color-amarillo: #FFC221;
+$color-nintendo: #FF0000;
+$color-sony: #2954E5;
+$color-xbox: #008015;
+$color-footer: #003963;
+$color-boton: #1B73B4;
+$color-fondo: #F2EFEF;
+$fuente: 'Montserrat', sans-serif;
+$letra-1: 40px;
+$letra-2: 30px;
+$letra-3: 22px;
+$letra-4: 20px;
+@import "../bootstrap-5.2.2/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: $fuente;
+}
+
+.navbar {
+    background-color: $color-amarillo;
+}
+.offcanvas{
+    background-color: $color-footer;
+    color: $color-fondo;
+}
+.btn{
+    background-color: $color-boton;
+    color: $color-fondo;
+}
+.bannerz {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 100%;
+}
+
+.producto {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.productito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulos-producto {
+    font-weight: bold;
+    font-size: $letra-2;
+}
+
+.boton-producto {
+    background-color: $color-boton;
+    color: white;
+    width: 324px;
+    height: 69px;
+    border: 0;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boton-producto:hover {
+    background-color: $color-footer;
+    color: white;
+}
+.esrb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.clasificacion {
+    width: 75px;
+    height: 85px;
+}
+.descripcion-general {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trailer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.seleccionclientes{
+    padding-top: 50px;
+}
+
+.seleccioncliente {
+    box-shadow: 0 4px 8px 0 rgba(95, 95, 95, 0.2);
+    text-align: center;
+    font-weight: bold;
+}
+.seleccioncliente:hover {
+    background-color: $color-fondo;
+    color: black;
+}
+.nintendoc{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.objeto-catalogo{
+    width: 233px ;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(95, 95, 95, 0.2);
+}
+.objeto-catalogo:hover {
+    background-color: $color-fondo;
+    color: black;
+}
+.img-catalogo{
+    width: 149px;
+}
+.pie{
+    background-color: $color-footer;
+    color: $color-fondo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
+.tpie{
+    font-weight: bolder;
+}
+.titulohome{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.arthome{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nintendohome{
+    color: $color-fondo;
+    background-color: $color-nintendo;
+}
+.sonyhome{
+    color: $color-fondo;
+    background-color: $color-sony;
+}
+.xboxhome{
+    color: $color-fondo;
+    background-color: $color-xbox;
+}
+.vermas{
+    background-color: $color-boton;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.vermas:hover{
+    color: $color-fondo;
+    background-color: $color-footer;
+}
+.gamer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.subs{
+    padding-top: 50px;
+    background-image: linear-gradient(to right, $color-boton , $color-footer);
+    padding-bottom: 50px;
+}
+.carro-1{
+    width: 100%;
+    border-bottom: 2px solid #707070;
+    span{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    padding-bottom: 10px;
+}
+
+.carro-2{
+    img{
+        width: 100%;
+    }
+    padding-top: 30px;
+    span{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    figure{
+        border: 2px solid #707070;
+        width: 80%;
+        height: 13%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.pagar{
+    background-color: rgb(248, 248, 248);
+    box-shadow: 3px 3px 6px 5px rgba(0, 0, 0, 13%);
+    padding: 15px 20px;
+    .compra-partes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        &:nth-child(3){
+            span{
+                border-bottom: none;
+            }
+        }
+        span{
+            font-style: normal;
+            font-size: 22px;
+            font-weight: 600;
+            border-bottom: 1.5px solid #707070;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        button{
+            margin-top: 10px;
+            font-style: normal;
+            font-size: 22px;
+            font-weight: 600;
+            width: 90%;
+            background-color: $color-boton;
+            border: none;
+            color: white;
+            padding: 3px 0px;
+            &:hover{
+                transition: all 500ms ease-out;
+                background-color: #2f9be9;
+            }
+            &:active{
+                padding: 1px;
+                background-color: white;
+                border: 2px solid #1B73B4;
+                transition: all 50ms ease-out;
+                color: #1B73B4 ;
+            }
+        }
+    }
+
+}
+
+  .show-btn{
+    background: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3498db;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  .show-btn, .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  .container{
+    display: none;
+    background: #fff;
+    width: 664px;
+    height: 700px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  #show:checked ~ .container{
+    display: block;
+  }
+  .container .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container .close-btn:hover{
+    color: #3498db;
+  }
+  .container .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container form{
+    margin-top: -20px;
+  }
+  .container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+  }
+  form .data label{
+    font-size: 18px;
+  }
+  form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+  }
+  form .data input:focus{
+    border-color: #3498db;
+    border-bottom-width: 2px;
+  }
+  form .forgot-pass{
+    margin-top: -8px;
+  }
+  form .forgot-pass a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .forgot-pass a:hover{
+    text-decoration: underline;
+  }
+  form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+    background: $color-boton;
+    transition: all 0.4s;
+  }
+  form .btn:hover .inner{
+    left: 0;
+  }
+  form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  form .signup-link{
+    text-align: center;
+  }
+  form .signup-link a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  form .signup-link a:hover{
+    text-decoration: underline;
+  }
